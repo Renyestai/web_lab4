@@ -1,18 +1,17 @@
-# Middlemarch
-[![Node.js CI](https://github.com/beatfactor/middlemarch/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/beatfactor/middlemarch/actions/workflows/node.js.yml)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/16d2bbe4-6931-4e83-9fe5-6fd6e1688f2d/deploy-status)](https://app.netlify.com/sites/middlemarch/deploys)
+# Лабораторная работа №4
 
-Sample bookstore single page application built with Vue 3 + Pinia and running on Vite. Routing is implementated with Vue Router. 
+## Сборка и запуск
 
-Component testing and End-to-end testing written in Nightwatch.js
+Для сборки и запуска проекта необходимо поочередно ввести команды:
 
-Full tutorial with step-by-step instructions available at:
+- ```npm run install```
+- ```npm run build```
+- ```npm run preview```
 
-[labs.pineview.io/learn-how-to-build-test-and-deploy-a-single-page-app-with-vue-3-vite-and-pinia/](https://labs.pineview.io/learn-how-to-build-test-and-deploy-a-single-page-app-with-vue-3-vite-and-pinia/)
+> Внимание! Часть картинок загружаются только при использоании VPN
 
-### Preview
-This project is automatically deployed to Netlify at the url:
+## Тестирование
 
-https://middlemarch.netlify.app/
+Для запуска всех тестов необходимо ввести команду:
 
-![Screenshot 2022-02-04 at 17 42 13](https://user-images.githubusercontent.com/419506/152567821-ebc2073d-2759-412f-8e55-fcb1261d6c6c.png)
+- ```npm run test```
